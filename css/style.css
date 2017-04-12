@@ -263,12 +263,13 @@ p { margin-bottom: 10px; }
     cursor: pointer;
     display: block;
     border-radius: 30px;
-    border:0px solid; border-color:#048;
+    border:0px solid;
+    border-color:#048;
     font-size: 200%;
 }
 #page-top a:hover {
     text-decoration: none;
-    background: #EFA9BD;
+    background: #048;
     color: #fff;
     border-color:#000;
     opacity: 1;
