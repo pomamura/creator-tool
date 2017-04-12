@@ -269,9 +269,10 @@ p { margin-bottom: 10px; }
 }
 #page-top a:hover {
     text-decoration: none;
-    background: #048;
-    color: #fff;
-    border-color:#000;
+    background: #fff;
+    color: #048;
+    border-radius: 30px;
+    border-color: #048;
     opacity: 1;
 }
 
