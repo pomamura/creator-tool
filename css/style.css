@@ -541,7 +541,6 @@ width: 20%;
     -moz-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
 }
-
 /*商品カラム修正*/
 @media all and (min-width: 999px) {
 .bg-left{
@@ -563,6 +562,12 @@ width: 20%;
 @media all and (max-width: 718px) {
     .ttl-bg{
         margin-left:0.5%;
+    }
+    .moreLink{
+        width: 100%;
+    }
+    .moreLink span{
+        width: 100%;
     }
 }
 
