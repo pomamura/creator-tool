@@ -55,10 +55,10 @@ p { margin-bottom: 10px; }
         justify-content: center;
     }
     .item {
-       margin: 6px;
-       text-align: center;
-       max-width: 300px;
-   }
+     margin: 6px;
+     text-align: center;
+     max-width: 300px;
+ }
 }
 @media all and (min-width: 700px) {
     .item{
@@ -283,28 +283,28 @@ p { margin-bottom: 10px; }
         right: 10px;
     }
     #page-top a {
-    background: #048;
-    text-decoration: none;
-    color: #fff ;
-    width: 50px ;
-    height: 50px ;
-    line-height: 50px ;
-    text-align: center;
-    cursor: pointer;
-    display: block;
-    border-radius: 30px;
-    border:0px solid;
-    border-color:#048;
-    font-size: 200%;
-}
-#page-top a:hover {
-    text-decoration: none;
-    background: #fff;
-    color: #048;
-    border-radius: 30px;
-    border-color: #048;
-    opacity: 1;
-}
+        background: #048;
+        text-decoration: none;
+        color: #fff ;
+        width: 50px ;
+        height: 50px ;
+        line-height: 50px ;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+        border-radius: 30px;
+        border:0px solid;
+        border-color:#048;
+        font-size: 200%;
+    }
+    #page-top a:hover {
+        text-decoration: none;
+        background: #fff;
+        color: #048;
+        border-radius: 30px;
+        border-color: #048;
+        opacity: 1;
+    }
 }
 
 .btn{
@@ -335,272 +335,272 @@ p { margin-bottom: 10px; }
     color: #6c93cc;
     padding:5px;
     width:90%;
-}*/
-.btn a:hover{
-    opacity: 0.5;
-}
-@media all and (max-width: 799px) {
-    .btn a{
-        font-size: 11pt;
+    }*/
+    .btn a:hover{
+        opacity: 0.5;
     }
-}
+    @media all and (max-width: 799px) {
+        .btn a{
+            font-size: 11pt;
+        }
+    }
 
-/*見出し*/
-.ttl-default{
-    font-size: 1.143em;/* 文字の大きさ */
-    font-weight: bold;/* 文字の太さ */
-}
-.genre_box > .ttl-icon{
-    border-bottom: solid 3px #cce4ff;
-    position: relative;
-    font-size: 14pt;
-}
-.genre_box > .ttl-icon:after{
-    position: absolute;
-content: " ";
-display: block;
-border-bottom: solid 3px #5472cd;
-bottom: -3px;
-width: 20%;
-}
-.ttl-bg{
-    font-size: 20px;
-    font-weight: bold;
-    padding: 12px 20px 12px 20px;
-    background: #fff;
-    color: #364e96;
-    border: solid 3px #364e96;
-    border-radius: 0.5em;
-}
-
-.item01 .item h3{
-   
-}
-.item02 .item h3{
-    
-}
-.item03 .item h3{
-   
-}
-.item04 .item h3{
-    
-}
-.moreLink {
-    display: inline-block;
-    width: 500px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    line-height: 54px;
-    outline: none;
-}
-.moreLink-box{
-    text-align: center;
-}
-.moreLink::before,
-.moreLink::after {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    content: '';
-}
-.moreLink,
-.moreLink::before,
-.moreLink::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-.moreLink {
-    position: relative;
-    -webkit-perspective: 300px;
-    perspective: 300px;
-}
-.moreLink span {
-    display: block;
-    position: absolute;
-    width: 500px;
-    height: 60px;
-    border: 2px solid #17b;
-    text-align: center;
-    line-height: 56px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    pointer-events: none;
-}
-.moreLink span:nth-child(1) {
-    background-color: #17b;
-    color: #fff;
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -30px;
-    -moz-transform-origin: 50% 50% -30px;
-    transform-origin: 50% 50% -30px;
-}
-.moreLink span:nth-child(2) {
-    background-color: #fff;
-    color: #17b;
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -30px;
-    -moz-transform-origin: 50% 50% -30px;
-    transform-origin: 50% 50% -30px;
-}
-.moreLink:hover span:nth-child(1) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-}
-.moreLink:hover span:nth-child(2) {
-    background-color: #17b;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-}
-
-.moreLink1 {
-    display: inline-block;
-    width: 500px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    line-height: 54px;
-    outline: none;
-}
-.moreLink1::before,
-.moreLink1::after {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    content: '';
-}
-.moreLink1,
-.moreLink1::before,
-.moreLink1::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-.moreLink1 {
-    position: relative;
-    -webkit-perspective: 300px;
-    perspective: 300px;
-}
-.moreLink1 span {
-    display: block;
-    position: absolute;
-    width: 500px;
-    height: 60px;
-    border: 2px solid #048;
-    text-align: center;
-    line-height: 56px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    pointer-events: none;
-}
-.moreLink1 span:nth-child(1) {
-    background-color: #048;
-    color: #fff;
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -30px;
-    -moz-transform-origin: 50% 50% -30px;
-    transform-origin: 50% 50% -30px;
-}
-.moreLink1 span:nth-child(2) {
-    background-color: #fff;
-    color: #048;
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -30px;
-    -moz-transform-origin: 50% 50% -30px;
-    transform-origin: 50% 50% -30px;
-}
-.moreLink1:hover span:nth-child(1) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-}
-.moreLink1:hover span:nth-child(2) {
-    background-color: #048;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-}
-/*商品カラム修正*/
-@media all and (min-width: 999px) {
-.bg-left{
-    margin: 6px 12px 12px 0;
-}
-.bg-center{
-    margin: 6px 6px 12px 6px;
-}
-.bg-right{
-    margin: 6px 0 12px 12px;
-}
-}
-@media all and (max-width: 999px) {
+    /*見出し*/
+    .ttl-default{
+        font-size: 1.143em;/* 文字の大きさ */
+        font-weight: bold;/* 文字の太さ */
+    }
+    .genre_box > .ttl-icon{
+        border-bottom: solid 3px #cce4ff;
+        position: relative;
+        font-size: 14pt;
+    }
+    .genre_box > .ttl-icon:after{
+        position: absolute;
+        content: " ";
+        display: block;
+        border-bottom: solid 3px #5472cd;
+        bottom: -3px;
+        width: 20%;
+    }
     .ttl-bg{
-        margin-left:1.4%;
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 12px 20px 12px 20px;
+        background: #fff;
+        color: #364e96;
+        border: solid 3px #364e96;
+        border-radius: 0.5em;
     }
-}
-@media all and (max-width: 718px) {
-    .ttl-bg{
-        margin-left:0.5%;
-    }
-    .moreLink{
-        width: 100%;
-    }
-    .moreLink span{
-        width: 100%;
-    }
-    .moreLink1{
-        width: 100%;
-    }
-    .moreLink1 span{
-        width: 100%;
-    }
-}
 
-#about {
-    background: #fff;
-    border: 5px solid #FFEA00;
-    border-radius: 0.5em;
-    color: #fff;
-    display: block;
-    margin: 20px auto;
-    width: 93%;
-    height: auto;
-    padding: 15px;
-}
-#about p{
-    font-size: 10pt;
-    color: #000;
-    margin: 0!important;
-}
-.btn-sp{
-    height: 20px;
-}
-@media all and (max-width: 718px) {
-.btn-sp{
-    height: 12px;
-}
-}
-:hover{
-    transition: all .3s;
-}
+    .item01 .item h3{
+     
+    }
+    .item02 .item h3{
+        
+    }
+    .item03 .item h3{
+     
+    }
+    .item04 .item h3{
+        
+    }
+    .moreLink {
+        display: inline-block;
+        width: 500px;
+        height: 54px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 54px;
+        outline: none;
+    }
+    .moreLink-box{
+        text-align: center;
+    }
+    .moreLink::before,
+    .moreLink::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+    .moreLink,
+    .moreLink::before,
+    .moreLink::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    .moreLink {
+        position: relative;
+        -webkit-perspective: 300px;
+        perspective: 300px;
+    }
+    .moreLink span {
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 60px;
+        border: 2px solid #17b;
+        text-align: center;
+        line-height: 56px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        pointer-events: none;
+    }
+    .moreLink span:nth-child(1) {
+        background-color: #17b;
+        color: #fff;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transform-origin: 50% 50% -30px;
+        -moz-transform-origin: 50% 50% -30px;
+        transform-origin: 50% 50% -30px;
+    }
+    .moreLink span:nth-child(2) {
+        background-color: #fff;
+        color: #17b;
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: 50% 50% -30px;
+        -moz-transform-origin: 50% 50% -30px;
+        transform-origin: 50% 50% -30px;
+    }
+    .moreLink:hover span:nth-child(1) {
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+    }
+    .moreLink:hover span:nth-child(2) {
+        background-color: #17b;
+        -webkit-transform: rotateX(-90deg);
+        -moz-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+    }
+
+    .moreLink1 {
+        display: inline-block;
+        width: 500px;
+        height: 54px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 54px;
+        outline: none;
+    }
+    .moreLink1::before,
+    .moreLink1::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+    .moreLink1,
+    .moreLink1::before,
+    .moreLink1::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    .moreLink1 {
+        position: relative;
+        -webkit-perspective: 300px;
+        perspective: 300px;
+    }
+    .moreLink1 span {
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 60px;
+        border: 2px solid #048;
+        text-align: center;
+        line-height: 56px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        pointer-events: none;
+    }
+    .moreLink1 span:nth-child(1) {
+        background-color: #048;
+        color: #fff;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transform-origin: 50% 50% -30px;
+        -moz-transform-origin: 50% 50% -30px;
+        transform-origin: 50% 50% -30px;
+    }
+    .moreLink1 span:nth-child(2) {
+        background-color: #fff;
+        color: #048;
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: 50% 50% -30px;
+        -moz-transform-origin: 50% 50% -30px;
+        transform-origin: 50% 50% -30px;
+    }
+    .moreLink1:hover span:nth-child(1) {
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+    }
+    .moreLink1:hover span:nth-child(2) {
+        background-color: #048;
+        -webkit-transform: rotateX(-90deg);
+        -moz-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+    }
+    /*商品カラム修正*/
+    @media all and (min-width: 999px) {
+        .bg-left{
+            margin: 6px 12px 12px 0;
+        }
+        .bg-center{
+            margin: 6px 6px 12px 6px;
+        }
+        .bg-right{
+            margin: 6px 0 12px 12px;
+        }
+    }
+    @media all and (max-width: 999px) {
+        .ttl-bg{
+            margin-left:1.4%;
+            font-size: 16px;
+        }
+    }
+    @media all and (max-width: 718px) {
+        .ttl-bg{
+            margin-left:0.5%;
+        }
+        .moreLink{
+            width: 100%;
+        }
+        .moreLink span{
+            width: 100%;
+        }
+        .moreLink1{
+            width: 100%;
+        }
+        .moreLink1 span{
+            width: 100%;
+        }
+    }
+
+    #about {
+        background: #fff;
+        border: 5px solid #FFEA00;
+        border-radius: 0.5em;
+        color: #fff;
+        display: block;
+        margin: 20px auto;
+        width: 93%;
+        height: auto;
+        padding: 15px;
+    }
+    #about p{
+        font-size: 10pt;
+        color: #000;
+        margin: 0!important;
+    }
+    .btn-sp{
+        height: 20px;
+    }
+    @media all and (max-width: 718px) {
+        .btn-sp{
+            height: 12px;
+        }
+    }
+    :hover{
+        transition: all .3s;
+    }
